@@ -6,3 +6,7 @@ This document provides:
 - A simple code example to visualize the touch sensing effect.
 
 - An example that uses this feature to control a LED, lighting it up or turning it off based on touch input.
+
+ESP32 uses the electrical properties of the human body as input. When the touch-sensing pin is touched with a finger, a small electric charge is drawn to the point of contact.
+
+This triggers capacitance variation resulting in an analog signal. Two successive approximation ADCs (SAR ADCs) then convert this analog signal into a digital number.
