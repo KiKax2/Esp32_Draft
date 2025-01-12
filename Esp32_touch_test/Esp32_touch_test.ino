@@ -10,6 +10,6 @@ void setup() {
 
 void loop() {
   Serial.print("Touch: ");
-  Serial.println(touchRead(4));  // get touch value on GPIO 4
+  Serial.println(touchRead(4));  // get touch value on GPIO 4 or touchRead(T0)
   delay(1000);
 }
