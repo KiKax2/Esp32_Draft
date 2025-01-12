@@ -1,4 +1,4 @@
-// This is just a test of the touch pins of esp32-wroom-32
+// This is just a test of the touch pins
 // Touch0 is T0 which is on GPIO 4.
 
 //To read the touch sensor, touchRead(GPIOPin);
